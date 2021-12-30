@@ -66,7 +66,7 @@ BEGIN_MESSAGE_MAP(CWClientDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDOK, &CWClientDlg::OnBnClickedOk)
-	ON_BN_CLICKED(IDCANCEL, &CWClientDlg::OnBnClickedCancel)
+	//ON_BN_CLICKED(IDCANCEL, &CWClientDlg::OnBnClickedCancel)
 END_MESSAGE_MAP()
 
 
@@ -98,12 +98,13 @@ BOOL CWClientDlg::OnInitDialog()
 
 	// 设置此对话框的图标。  当应用程序主窗口不是对话框时，框架将自动
 	//  执行此操作
-	SetIcon(m_hIcon, TRUE);			// 设置大图标
-	SetIcon(m_hIcon, FALSE);		// 设置小图标
+	//SetIcon(m_hIcon, TRUE);			// 设置大图标
+	//SetIcon(m_hIcon, FALSE);		// 设置小图标
 
-	ShowWindow(SW_MAXIMIZE);
+	//ShowWindow(SW_SHOW);
+	//ShowWindow(SW_MAXIMIZE);
 
-	ShowWindow(SW_MINIMIZE);
+	//ShowWindow(SW_MINIMIZE);
 
 	// TODO: 在此添加额外的初始化代码
 
